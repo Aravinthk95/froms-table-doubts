@@ -6,23 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div {
+        #term {
             color:red;
             background-color:blanchedalmond;
+            /* height:400px; */
             font-size: larger;
             font-style:oblique;
+            background-image: linear-gradient(blue green violet purple);
 
         }
         /* .fine {
-            color: green;
+            /* background-color: green; */
+            /* height: auto;
+            color: blueviolet;
+        } */ */
+
+        .ite {
+
+            background-image: linear-gradient(lightblue,purple,lightgreen);
+            font-size: xx-large;
+            color: azure;
+            /* justify-content: center; */
+            align-items: center;
+            position: fixed;
         }
-         */
+        
     </style>
     
 </head>
 <body>
     <form>
-        <div>
+
+        <div class="ite">
+
+            <h1><b>STUDENT CONTACT FORM</b></h1>
+
+            </div>
+
+        <div id="term">
         
         <label for="Name"> Name</label>
 
@@ -103,12 +124,14 @@
             <input type="text" name="Message" id="Message" placeholder="message"></p>
             <br>
             <br>
+            
 
             <div class="fine"><input type="button" value="Submit"></div>
 
-            </div>
+        </div>
 
 
     </form>
 </body>
-</html>
+
+ </html>
